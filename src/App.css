@@ -5,7 +5,37 @@
   text-align: center;
 }
 
-.logo {
+.popUp{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-radius: 15%;
+width: auto;
+height: auto;
+background-color: black;
+color:white;
+padding: 1rem;
+
+}
+
+li{
+  list-style-type: none;
+  font-size: 20px;
+
+}
+
+p{
+  background-color: white;
+ border-radius: 20%;
+ padding: 1rem;
+}
+
+p:hover{
+  background-color: green;
+}
+
+body{
+  background-color: lightslategray;
+}
+/*.logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
